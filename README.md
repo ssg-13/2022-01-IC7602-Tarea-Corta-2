@@ -84,9 +84,9 @@ GET BROADCAST IP {dirección IP} MASK {mascara en formato /bits o notación X.X.
 
 Por ejemplo:
   1. **GET BROADCAST IP 10.8.2.5 MASK /29**
-  a. Retorna 10.8.2.7
+    a. Retorna 10.8.2.7
   2. **GET BROADCAST IP 172.16.0.56 MASK 255.255.255.128**
-  a. Retorna 172.16.0.127
+    a. Retorna 172.16.0.127
 
 ```
 GET NETWORK NUMBER IP {dirección IP} MASK {mascara en formato /bits o notación X.X.X.X}
@@ -94,9 +94,9 @@ GET NETWORK NUMBER IP {dirección IP} MASK {mascara en formato /bits o notación
 
 Por ejemplo:
   1. **GET NETWORK NUMBER IP 10.8.2.5 MASK /29**
-  a. Retorna 10.8.2.0
+    a. Retorna 10.8.2.0
   2. **GET NETWORK NUMBER IP 172.16.0.56 MASK 255.255.255.128**
-  a. Retorna 172.16.0.0
+    a. Retorna 172.16.0.0
 
 ```
 GET HOSTS RANGE IP {dirección IP} MASK {mascara en formato /bits o notación X.X.X.X}
@@ -104,9 +104,9 @@ GET HOSTS RANGE IP {dirección IP} MASK {mascara en formato /bits o notación X.
 
 Por ejemplo:
   1. **GET HOSTS RANGE IP 10.8.2.5 MASK /29**
-  a. hosts range: [10.8.2.1 - 10.8.2.6]
+    a. hosts range: [10.8.2.1 - 10.8.2.6]
   2. **GET HOSTS RANGE IP 172.16.0.56 MASK 255.255.255.128**
-  a. Retorna hosts range: [172.16.0.1 - 172.16.0.126]
+    a. Retorna hosts range: [172.16.0.1 - 172.16.0.126]
 
 ### Conectar con el servidor
 
