@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home
+gcc server.c -o server -lpthread -lm
+./server
+tail -f /dev/null
